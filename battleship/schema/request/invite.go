@@ -3,11 +3,11 @@ package request
 type GameRule struct {	
 	BoardWidth 		int `json:"boardWidth" binding:"required"`
 	BoardHeight 		int `json:"boardHeight" binding:"required"`
-	Ships	[] Ship 	`json:"ships"`
+	ShipTypes	[]ShipType 	`json:"ships"`
 }
 
 
-type Ship struct {
+type ShipType struct {
 	Type 		string 		`json:"type"`
 	Quantity 	int 		`json:"quantity"`
 }

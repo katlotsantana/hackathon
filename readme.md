@@ -3,6 +3,7 @@
 	+ download the archive file
 	+ extract to "/usr/local" directory
 	+ add GO_HOME=/usr/local/go/bin to PATH environment variable.
+	+ setup redis
 
 - Setup go local enviroment
 	+ add GOPATH to enviroment available. Refer: https://github.com/golang/go/wiki/Setting-GOPATH
@@ -14,6 +15,7 @@
 	+ mkdir $GOPATH/src & cd $_
 	+ go get github.com/gin-gonic/gin
 	+ go get github.com/kardianos/govendor
+	+ go get github.com/gin-contrib/sessions
 	+ mkdir -p hackathon/battleship && cd "$_"
 	+ checkout our project
 - how to run:
